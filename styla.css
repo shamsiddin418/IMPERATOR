@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+  
+  }
+  
+  .home-page img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    opacity: .4;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .text h1 {
+    font-weight: 800;
+    font-family: sans-serif;
+    color: red;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+  }
+  
+  .card:nth-child(2) {
+    width: 576px;
+  
+    color: #45525B;
+  
+  }
+  
+  .card:nth-child(1) {
+    font-size: 30px;
+    width: 490px;
+    font-family: sans-serif;
+    color: #45525B;
+  
+  }
+  
+  .photo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .text-card{
+    justify-content: center;
+    margin-top: 200px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  span{
+    color: #FF8A63;
+  }
+  .container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+  }
+  .card-one{
+    gap: 40px;
+    line-height: 50px;
+    font-family: sans-serif;
+  }
+  
+
+
+  meta {
+    width: 100%;
+  }
